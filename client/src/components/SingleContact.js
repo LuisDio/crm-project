@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleContact = ({item}) => {
+const SingleContact = ({item}) => (
     <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
@@ -13,6 +13,6 @@ const SingleContact = ({item}) => {
       </div>
     </div>
   </div>
-}
+)
 
 export default SingleContact;
